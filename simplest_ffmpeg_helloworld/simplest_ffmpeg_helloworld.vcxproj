@@ -80,6 +80,7 @@
       <OptimizeReferences>false</OptimizeReferences>
       <AdditionalLibraryDirectories>lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>avcodec.lib;avformat.lib;avutil.lib;avdevice.lib;avfilter.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
